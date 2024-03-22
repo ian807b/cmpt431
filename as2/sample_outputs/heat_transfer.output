@@ -1,0 +1,24 @@
+./heat_transfer_parallel --nThreads 4 --gSize 1000 --iCX 0.1 --iCY 0.15 --mTemp 600 --tSteps 4000
+Grid Size : 1000x1000
+Number of threads : 4
+Cx : 0.1
+Cy : 0.15
+Temperature in the middle of grid : 600
+Time Steps : 4000
+Initializing Temperature Array...
+thread_id, start_column, end_column, time_taken
+0, 0, 249, 11.447
+1, 250, 499, 11.447
+2, 500, 749, 11.447
+3, 750, 999, 11.447
+Temp[0,0]=0
+Temp[166,166]=6.0966e-13
+Temp[332,332]=138.69
+Temp[498,498]=600
+Temp[664,664]=161.75
+Temp[830,830]=1.7838e-12
+Temp[249,249]=0.006173
+Temp[499,499]=600
+Temp[749,749]=0.0075003
+Temp[999,999]=0
+Time taken (in seconds) : 11.448

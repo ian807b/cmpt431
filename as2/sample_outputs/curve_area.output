@@ -1,0 +1,19 @@
+./curve_area_parallel --nThreads 8 --nPoints 1000000000 --coeffA 3.2 --coeffB 7.1 --rSeed 37
+Number of points : 1000000000
+Number of threads : 8
+A : 3.2
+B : 7.1
+Random Seed : 37
+thread_id, points_generated, curve_points, time_taken
+0, 125000000, 37414106, 5.1605
+1, 125000000, 37413520, 5.1618
+2, 125000000, 37416515, 5.1601
+3, 125000000, 37414229, 5.1616
+4, 125000000, 37416005, 5.1571
+5, 125000000, 37413777, 5.1623
+6, 125000000, 37413800, 5.1579
+7, 125000000, 37414842, 5.1612
+Total points generated : 1000000000
+Total points in curve : 299316794
+Area : 1.197267176
+Time taken (in seconds) : 5.1627

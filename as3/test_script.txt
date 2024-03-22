@@ -1,0 +1,1 @@
+python /home/gha42/as3/scripts/page_rank_tester.pyc --execPath=/home/gha42/as3/ --scriptPath=/home/gha42/as3/scripts/page_rank_evaluator.pyc --inputPath=/home/gha42/as3/input_graphs/

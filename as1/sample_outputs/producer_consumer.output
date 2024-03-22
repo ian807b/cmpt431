@@ -1,0 +1,23 @@
+Constructor
+Number of producers: 4
+Number of consumers: 2
+Starting Producers
+Starting Consumers
+Joining Producers
+Joining Consumers
+Producer stats
+producer_id, items_produced_type0:value_type0, items_produced_type1:value_type1, items_produced_type2:value_type2, total_value_produced, time_taken
+0, 125000:31249750000, 83333:55555111112, 41667:38194638888, 124999500000, 0.973188
+1, 125000:31249875000, 83333:55555194445, 41667:38194680555, 124999750000, 1.0039
+2, 125000:31250000000, 83333:55555277778, 41667:38194722222, 125000000000, 1.02925
+3, 125000:31250125000, 83333:55555361111, 41667:38194763889, 125000250000, 0.999188
+Total produced = 1000000
+Total value produced = 499999500000
+Consumer stats
+consumer_id, items_consumed_type0:value_type0, items_consumed_type1:value_type1, items_consumed_type2:value_type2, time_taken
+0, 256488:63656791749, 163534:109699063438, 87398:79885550318, 1.02899
+1, 243512:61342958251, 169798:112521881008, 79270:72893255236, 1.02891
+Total consumed = 1000000
+Total value consumed = 499999500000
+Time taken: 1.02975
+Destructor
